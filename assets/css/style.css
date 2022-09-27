@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
-    /* border:1px solid red; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -18,6 +17,11 @@ h2{
 /* spaces between sections */
 section{
     padding:40px 10px;
+}
+
+footer{
+    height:30px;
+    background-color: rgb(29, 24, 24);
 }
 
 /* main header color */
@@ -115,9 +119,13 @@ section{
 
 .contact-info li{
     list-style-type: none;
-    padding: 0px 30px;
+    padding: 15px 40px;
     display: inline-block;
     margin-right: 20px;
+    margin-top: 10px;
+    background-color: beige;
+    border-radius: 8px;
+    border:2px solid rgb(218, 218, 169);
 }
 
 #about-me{
@@ -131,6 +139,10 @@ section{
     width:200px;
     height:200px;
     border-radius: 10px;
+}
+
+#work{
+    margin-top: 100px;
 }
 
 /* tablet, desktop styles */
